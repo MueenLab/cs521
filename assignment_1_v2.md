@@ -4,8 +4,7 @@
 
 By completing this assignment, you will:
 
-- Understand and implement dimensionality reduction techniques: 
-  PCA, Fourier Transform, and Wavelet Transform.
+- Understand and implement some commonly used dimensionality reduction techniques
 - Design and justify appropriate evaluation metrics.
 - Analyze and interpret the impact of dimensionality reduction on a given dataset.
 - Learn to use AI tools responsibly in your coding and reporting process.
