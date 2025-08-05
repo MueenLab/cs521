@@ -1,7 +1,7 @@
 import numpy as np
 
 # 1. Read the dataset into a numpy array
-file_path = 'data/Asgmnt1_data.txt'
+file_path = '../data/Asgmnt1_data.txt'
 
 data = np.loadtxt(file_path)
 
