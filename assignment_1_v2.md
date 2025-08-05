@@ -56,7 +56,7 @@ By completing this assignment, you will:
 - [ ] PDF Report
   - [ ] Main content
   - [ ] AI Usage Reflection section
-  - [ ] Chat history with AI tools (if used)
+  - [ ] Chat history with AI tools
 
 ---
 
