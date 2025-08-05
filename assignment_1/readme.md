@@ -60,7 +60,7 @@ By completing this assignment, you will:
 ## Submission Checklist
 
 - [ ] Implementation (Python script or Jupyter Notebook depending on flavor)
-  - [ ] Flavor 1: Python script with fixed issues and completed analysis
+  - [ ] Flavor 1: Python script or Jupyter Notebook with fixed issues and completed analysis
   - [ ] Flavor 2: Jupyter Notebook (an `.ipynb` file) with clear code, comments, and plots
 - [ ] PDF Report
   - [ ] Main content
