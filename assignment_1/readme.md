@@ -23,7 +23,7 @@ By completing this assignment, you will:
 
 2. **Two flavors:**
   
-    - **Flavor 1:** In this version, you will be given a faulty implementation of the code, as well as a chat history with
+    - **Flavor 1:** In this version, you will be given a faulty implementation, as well as a chat history with
       AI tools that generated the code. Your task is to analyze the code, identify and fix the issues, and complete the analysis.
     - **Flavor 2:** In this version, you will get a template Jupyter Notebook with the predefined structure and some 
       starter code. Your task is to fill in the missing parts, implement the techniques, and complete the analysis.
