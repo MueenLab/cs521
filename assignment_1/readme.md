@@ -71,9 +71,7 @@ You have access to both and you can choose either version based on your preferen
   - Add comments to explain complex logic.
   - Use docstrings for functions to describe their purpose, parameters, and return values.
   - For additional information about Python coding style, you can read the PEP8 document (https://www.python.org/dev/peps/pep-0008/).
-- Use appropriate libraries for numerical operations and plotting (e.g., `numpy`, `matplotlib`). 
-  - You only need to implement the core logic of dimensionality reduction techniques by yourself, 
-    but you can use libraries for basic operations like matrix multiplication, etc.
+- Use appropriate libraries for numerical operations and plotting (e.g., `numpy`, `matplotlib`).
 - Ensure reproducibility by setting random seeds where applicable.
 
 ---
