@@ -17,14 +17,15 @@ By completing this assignment, you will:
    ⚠️ **IMPORTANT**: You can use AI tools to assist with coding (e.g., explaining, commenting, debugging), 
       but you must write the core logic yourself. All your AI chat history must be submitted with your report.
 
-   - Implement the following dimensionality reduction techniques using Python without using any high-level libraries:
+   - Implement the following dimensionality reduction techniques using Python (you can use `numpy` for numerical 
+   operations, but you **CANNOT** directly call functions from `scikit-learn` or similar libraries):
      - Principal Component Analysis (PCA)
      - Wavelet Transform using Haar matrix
    - Transform a given dataset (16000 x 128) using these techniques.
    - Compute the Euclidean distance matrix for the original and reduced datasets.
    - Benchmark each technique's performance:
      1. Time: Measure the time taken to apply each technique.
-     2. Relationship consistency: For each pair of cells in the distance matrix, check if the relationships (greater or 
+     2. Relationship consistency: For each pair of cells in the distance matrix, check if the distance relationships (greater or 
         less) hold in the reduced matrices compared to the original matrix.
 
         *Example*: If the distance between points A and B is greater than the distance between A and C in the original matrix,
@@ -63,6 +64,20 @@ You have access to both and you can choose either version based on your preferen
 
 ---
 
+## Coding Guidelines
+- Good readability:
+  - Use functions or classes to encapsulate logic, avoid boilerplate code.
+  - Use meaningful variable and function names.
+  - Add comments to explain complex logic.
+  - Use docstrings for functions to describe their purpose, parameters, and return values.
+  - For additional information about Python coding style, you can read the PEP8 document (https://www.python.org/dev/peps/pep-0008/).
+- Use appropriate libraries for numerical operations and plotting (e.g., `numpy`, `matplotlib`). 
+  - You only need to implement the core logic of dimensionality reduction techniques by yourself, 
+    but you can use libraries for basic operations like matrix multiplication, etc.
+- Ensure reproducibility by setting random seeds where applicable.
+
+---
+
 ## AI Usage Policy
 
 **AI tools are allowed, but only if used responsibly:**
@@ -95,3 +110,4 @@ We will use GitHub Classroom to collect your code. In addition, please submit th
 - `numpy` for numerical operations
 - `matplotlib` for plotting
 - `time` for elapsed time measurement
+- `random` for random sampling (if needed)
