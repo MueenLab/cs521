@@ -105,7 +105,7 @@ We will use GitHub Classroom to collect your code. In addition, please submit th
 
 ## Suggested Libraries
 
-- `numpy` for numerical operations
-- `matplotlib` for plotting
+- `numpy` for numerical operations (https://numpy.org/)
+- `matplotlib` for plotting (https://matplotlib.org/)
 - `time` for elapsed time measurement
 - `random` for random sampling (if needed)
