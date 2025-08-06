@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-import ipynb.fs.full.test_a1 as a1
+import ipynb.fs.full.assignment_1 as a1
 
 class TestAssignment1Template(unittest.TestCase):
     def setUp(self):

@@ -34,16 +34,7 @@ By completing this assignment, you will:
 
      3. With the help of AI tools, find another metric that can be used to compare the dimensionality reduction techniques.
 
-2. **Two versions:**
-  
-    - **Version 1:** In this version, you will be given a Python script with faulty implementation, as well as a chat history with
-      AI tools that generated the code. Your task is to analyze the code, identify and fix the issues, and complete the analysis.
-    - **Version 2:** You will get a Jupyter Notebook template with the predefined structure and some 
-      starter code. Your task is to fill in the missing parts, implement the techniques, and complete the analysis.
-    - You can choose either version based on your preference.
-    - **Note:** The two versions are designed to be equivalent in terms of learning outcomes, so choose the one you find more engaging.
-    - 
-3. **Report:**
+2. **Report:**
 
    Write a report yourself (AI NOT allowed here) that includes:
    - An introduction to each technique and implementation summary
@@ -51,10 +42,24 @@ By completing this assignment, you will:
    - Results, discussion of tradeoffs, and key insights
    - AI usage reflection
    
-4. **AI Usage Reflection:**
+3. **AI Usage Reflection:**
    
    Briefly describe your thought on how you used AI tools. What worked well? What didn't? How did it help you learn or improve your work? 
    Please also append your chat history with AI tools at the end of your report.
+
+---
+
+## Flavor Options
+
+We prepared two flavors of this assignment to cater to different preferences. 
+You have access to both and you can choose either version based on your preference.
+
+- **Version 1:** In this version, you will be given a Python script with faulty implementation, as well as a chat history with
+  AI tools that generated the code. Your task is to analyze the code, identify and fix the issues, and complete the analysis.
+- **Version 2:** You will get a Jupyter Notebook template with the predefined structure and some 
+  starter code. Your task is to fill in the missing parts, implement the techniques, and complete the analysis.
+
+**Note:** The two versions are designed to be equivalent in terms of learning outcomes, so choose the one you find more engaging.
 
 ---
 
@@ -73,7 +78,9 @@ By completing this assignment, you will:
 
 ## Submission Checklist
 
-- [ ] Implementation (Python script or Jupyter Notebook depending on flavor)
+We will use GitHub Classroom to collect your code. In addition, please submit the PDF report on Canvas.
+
+- [ ] Code (Python script or Jupyter Notebook depending on flavor)
   - [ ] Flavor 1: Python script or Jupyter Notebook with fixed issues and completed analysis
   - [ ] Flavor 2: Jupyter Notebook (an `.ipynb` file) with clear code, comments, and plots
 - [ ] PDF Report
@@ -87,3 +94,4 @@ By completing this assignment, you will:
 
 - `numpy` for numerical operations
 - `matplotlib` for plotting
+- `time` for elapsed time measurement
