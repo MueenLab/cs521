@@ -14,21 +14,35 @@ By completing this assignment, you will:
 
 1. **Implementation:**
 
-   - A high dimensional dataset will be provided. We would like to apply different reduction methods, such as:
+   ⚠️ **IMPORTANT**: You can use AI tools to assist with coding (e.g., explaining, commenting, debugging), 
+      but you must write the core logic yourself. All your AI chat history must be submitted with your report.
+
+   - Implement the following dimensionality reduction techniques using Python without using any high-level libraries:
      - Principal Component Analysis (PCA)
      - Wavelet Transform using Haar matrix
-   - Implement each technique using Python (no 3rd party libraries are allowed).
-   - Compare the dimensionality reduction techniques. You should choose or design evaluation metrics to support your observation (e.g., distance preservation, execution time, etc.).
-   - You can use AI tools to assist with coding (e.g., explaining, commenting debugging), but you must write the core logic yourself.
+   - Transform a given dataset (16000 x 128) using these techniques.
+   - Compute the Euclidean distance matrix for the original and reduced datasets.
+   - Benchmark each technique's performance:
+     1. Time: Measure the time taken to apply each technique.
+     2. Relationship consistency: For each pair of cells in the distance matrix, check if the relationships (greater or 
+        less) hold in the reduced matrices compared to the original matrix.
 
-2. **Two flavors:**
+        *Example*: If the distance between points A and B is greater than the distance between A and C in the original matrix,
+        check if this relationship holds in the reduced matrices as well. We want to see how often these relationships are preserved.
+        
+        If the computation is too time-consuming, consider using a random sample of pairs instead of all pairs.
+
+     3. With the help of AI tools, find another metric that can be used to compare the dimensionality reduction techniques.
+
+2. **Two versions:**
   
-    - **Flavor 1:** In this version, you will be given a faulty implementation, as well as a chat history with
+    - **Version 1:** In this version, you will be given a Python script with faulty implementation, as well as a chat history with
       AI tools that generated the code. Your task is to analyze the code, identify and fix the issues, and complete the analysis.
-    - **Flavor 2:** In this version, you will get a template Jupyter Notebook with the predefined structure and some 
+    - **Version 2:** You will get a Jupyter Notebook template with the predefined structure and some 
       starter code. Your task is to fill in the missing parts, implement the techniques, and complete the analysis.
-    - You can choose either flavor based on your preference.
-    - **Note:** The two flavors are designed to be equivalent in terms of learning outcomes, so choose the one you find more engaging.
+    - You can choose either version based on your preference.
+    - **Note:** The two versions are designed to be equivalent in terms of learning outcomes, so choose the one you find more engaging.
+    - 
 3. **Report:**
 
    Write a report yourself (AI NOT allowed here) that includes:
@@ -50,7 +64,7 @@ By completing this assignment, you will:
 
 | Allowed                          | Not Allowed                                 |
 |----------------------------------|---------------------------------------------|
-| Debugging help,                  | Copy-pasting entire solutions               |
+| Debugging help                   | Copy-pasting entire solutions               |
 | Summarizing, commenting          | Using AI to generate full report or metrics |
 | Improving report clarity/grammar | Submitting unedited AI output as your work  |
 
