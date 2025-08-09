@@ -57,13 +57,26 @@ By completing this assignment, you will:
 We prepared two flavors of this assignment to cater to different preferences. 
 You have access to both and you can choose either version based on your preference.
 
-- **Version 1:** In this version, you will be given a Python script with faulty implementation, as well as a chat history with
+- **Version 1:** In this version, you will be given a Jupyter Notebook with faulty implementation, as well as a chat history with
   AI tools that generated the code. Your task is to analyze the code, identify and fix the issues, and complete the analysis.
 - **Version 2:** You will get a Jupyter Notebook template with the predefined structure and some 
   starter code. Your task is to fill in the missing parts, implement the techniques, and complete the analysis.
 
-**Note:** The two versions are designed to be equivalent in terms of learning outcomes, so choose the one you find more engaging.
+**Note:** 
+- The two versions are designed to be equivalent in terms of learning outcomes, so choose the one you find more engaging.
+- Do NOT change the function name or function parameters in the provided code. 
+  The evaluation script will call your functions with specific parameters, and changing them will result in an error.
 
+---
+
+## Get Started
+1. Clone this assignment repository from GitHub Classroom.
+2. Choose the version you prefer (Version 1 or Version 2), write your code in the corresponding Jupyter Notebook (`./version_X/assignment_1.ipynb`), and complete the analysis.
+3. Run the evaluation script to check your implementation and performance metrics:
+   ```bash
+   # replace X with the version number (1 or 2)
+   python ./evaluation.py --version X
+   ```
 ---
 
 ## Coding Guidelines
@@ -95,9 +108,8 @@ You have access to both and you can choose either version based on your preferen
 
 We will use GitHub Classroom to collect your code. In addition, please submit the PDF report on Canvas.
 
-- [ ] Code (Python script or Jupyter Notebook depending on flavor)
-  - [ ] Flavor 1: Python script or Jupyter Notebook with fixed issues and completed analysis
-  - [ ] Flavor 2: Jupyter Notebook (an `.ipynb` file) with clear code, comments, and plots
+- [ ] Code: 
+  - [ ] Commit and push the completed notebook `assignment_1.ipynb` to the assignment repository.
 - [ ] PDF Report
   - [ ] Main content
   - [ ] AI Usage Reflection section
@@ -111,3 +123,4 @@ We will use GitHub Classroom to collect your code. In addition, please submit th
 - `matplotlib` for plotting (https://matplotlib.org/)
 - `time` for elapsed time measurement
 - `random` for random sampling (if needed)
+- `ipynb` for running the evaluation script
