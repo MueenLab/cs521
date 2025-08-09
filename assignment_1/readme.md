@@ -22,6 +22,8 @@ By completing this assignment, you will:
      - Principal Component Analysis (PCA)
      - Wavelet Transform using Haar matrix
    - Transform a given dataset (16000 x 128) using these techniques.
+     - For PCA, please keep the **best** (NOT the first or last) 4 principal components.
+     - For Wavelet transform, use the first 4 coefficients.
    - Compute the Euclidean distance matrix for the original and reduced datasets.
    - Benchmark each technique's performance:
      1. Time: Measure the time taken to apply each technique.
