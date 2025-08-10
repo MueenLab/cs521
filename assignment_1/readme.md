@@ -17,14 +17,17 @@ By completing this assignment, you will:
    ⚠️ **IMPORTANT**: You can use AI tools to assist with coding (e.g., explaining, commenting, debugging), 
       but you must write the core logic yourself. All your AI chat history must be submitted with your report.
 
+   - Load the provided dataset (16000 x 128).
+   - Apply **row-wise** z-normalization on the dataset.
+   - Compute the distance matrix of the normalized dataset using Euclidean distance.
    - Implement the following dimensionality reduction techniques using Python (you can use `numpy` for numerical 
    operations, but you **CANNOT** directly call functions from `scikit-learn` or similar libraries):
      - Principal Component Analysis (PCA)
      - Wavelet Transform using Haar matrix
-   - Transform a given dataset (16000 x 128) using these techniques.
+   - Transform the normalized dataset using these techniques.
      - For PCA, please keep the **best** (NOT the first or last) 4 principal components.
      - For Wavelet transform, use the first 4 coefficients.
-   - Compute the Euclidean distance matrix for the original and reduced datasets.
+   - Compute the Euclidean distance matrix the reduced datasets.
    - Benchmark each technique's performance:
      1. Time: Measure the time taken to apply each technique.
      2. Relationship consistency: For each pair of cells in the distance matrix, check if the distance relationships (greater or 
@@ -39,7 +42,7 @@ By completing this assignment, you will:
 
 2. **Report:**
 
-   Write a report yourself (AI NOT allowed here) that includes:
+   Write a report yourself (AI tool **NOT** allowed here) that includes:
    - An introduction to each technique and implementation summary
    - Justification of your evaluation metrics
    - Results, discussion of tradeoffs, and key insights
@@ -65,18 +68,14 @@ You have access to both and you can choose either version based on your preferen
 **Note:** 
 - The two versions are designed to be equivalent in terms of learning outcomes, so choose the one you find more engaging.
 - Do NOT change the function name or function parameters in the provided code. 
-  The evaluation script will call your functions with specific parameters, and changing them will result in an error.
+  The evaluation code will call your functions with specific parameters, and changing them will result in an error.
 
 ---
 
 ## Get Started
 1. Clone this assignment repository from GitHub Classroom.
 2. Choose the version you prefer (Version 1 or Version 2), write your code in the corresponding Jupyter Notebook (`./version_X/assignment_1.ipynb`), and complete the analysis.
-3. Run the evaluation script to check your implementation and performance metrics:
-   ```bash
-   # replace X with the version number (1 or 2)
-   python ./evaluation.py --version X
-   ```
+3. You can run the evaluation code at the end of the notebook to verify your implementation correctness.
 ---
 
 ## Coding Guidelines
@@ -123,4 +122,3 @@ We will use GitHub Classroom to collect your code. In addition, please submit th
 - `matplotlib` for plotting (https://matplotlib.org/)
 - `time` for elapsed time measurement
 - `random` for random sampling (if needed)
-- `ipynb` for running the evaluation script
