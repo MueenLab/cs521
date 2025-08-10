@@ -17,11 +17,11 @@ By completing this assignment, you will:
    ⚠️ **IMPORTANT**: You can use AI tools to assist with coding (e.g., explaining, commenting, debugging), 
       but you must write the core logic yourself. All your AI chat history must be submitted with your report.
 
-   - Load the provided dataset (16000 x 128).
+   - Load the provided dataset `Asgmnt1_data.txt` (16000 x 128).
    - Apply **row-wise** z-normalization on the dataset.
    - Compute the distance matrix of the normalized dataset using Euclidean distance.
    - Implement the following dimensionality reduction techniques using Python (you can use `numpy` for numerical 
-   operations, but you **CANNOT** directly call functions from `scikit-learn` or similar libraries):
+   operations, but you **CANNOT** directly call functions from `scikit-learn` or similar libraries to perform the transformation):
      - Principal Component Analysis (PCA)
      - Wavelet Transform using Haar matrix
    - Transform the normalized dataset using these techniques.
